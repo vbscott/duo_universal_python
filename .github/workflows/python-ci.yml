@@ -21,6 +21,9 @@ jobs:
           pip install -r tests/requirements.txt
       - name: Lint with flake8
         run: flake8
+      - name: Install duouniversal with Python3 
+        working-directory: tests
+        run: pip install -r requirements.txt
       - name: Test with Python3 
         working-directory: tests
         run: python3 -m unittest
