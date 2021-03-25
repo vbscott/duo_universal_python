@@ -1,6 +1,6 @@
 # Duo Universal Python SDK Demo
 
-A simple Python web application that serves a logon page integrated with Duo 2FA.
+A simple Python3 web application that serves a logon page integrated with Duo 2FA.
 
 ## Setup
 Change to the "demo" directory
@@ -10,12 +10,7 @@ cd demo
 
 Set up a virtual environment
 ```
-# Python 3
 python -m venv env
-source env/bin/activate
-
-# Python 2
-virtualenv env
 source env/bin/activate
 ```
 
